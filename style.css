@@ -45,3 +45,14 @@ color: #B56576
 .item{
   border-bottom: 1px solid #283C55;
 }
+
+@media(max-width:800px){
+  img{
+    margin-right: 30px;
+    display: block;
+    border-radius:10px;
+    height:100px;
+    width: auto;
+  }
+
+}
