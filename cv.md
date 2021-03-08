@@ -27,7 +27,11 @@ height: 100vh;
 padding-right: ${widthScroll}px;
 `;
 }
+window.enableScroll = function() {
+    document.body.style.cssText = ``;
+    window.scroll = ({ top: document.body.dbScrollY })
 
+}
 ```
 
 # Education
