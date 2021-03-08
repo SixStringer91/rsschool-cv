@@ -1,0 +1,47 @@
+
+
+
+body {
+
+  background: linear-gradient(to top, #355070, #6D597A);
+  color: #EAAC8B;
+  font-family: 'Roboto', serif;
+  font-size: 18px;
+  margin: 8px 0;
+}
+
+.wrapper{
+margin: 0 auto;
+  max-width: 1024px;
+}
+
+header{
+border-bottom: 1px solid #283C55;
+
+}
+
+.info{
+  display: flex;
+}
+
+img{
+  margin: 20px 0 10px;
+  margin-left: auto;
+  margin-right: 200px;
+  display: block;
+  border-radius:10px;
+  height: 140px;
+  width: auto;
+}
+a {
+  text-decoration: none;
+  color: B56576;
+}
+
+
+h2{
+color: #B56576
+}
+.item{
+  border-bottom: 1px solid #283C55;
+}
